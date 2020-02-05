@@ -2,7 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export const For = props => {
-  const { data = [], noData, itemRenderer } = props;
+  const {
+    data = [],
+    noData = () => '',
+    itemRenderer = (row, idx) => <div key={idx}> {row + 1} </div>
+  } = props;
   return (
     <React.Fragment>
       {data.length === 0 && noData()}
@@ -11,6 +15,7 @@ export const For = props => {
   );
 };
 For.propTypes = {
-  data: PropTypes.array.isRequired,
-  itemRenderer: PropTypes.func.isRequired
+  data: PropTypes.array,
+  itemRenderer: PropTypes.func,
+  noData: PropTypes.func
 };
