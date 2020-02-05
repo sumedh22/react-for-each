@@ -1,20 +1,20 @@
-# react-for-each
+# react-for-loop
 
 > Syntactic sugar for using loops in React with optional no-data message
 
-[![NPM](https://img.shields.io/npm/v/react-for-each.svg)](https://www.npmjs.com/package/react-for-each) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-for-each.svg)](https://www.npmjs.com/package/react-for-loop) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-for-each
+npm install --save react-for-loop
 ```
 
 ## Usage
 
 ```jsx
 import React, { useState } from "react";
-import { For } from "react-for-each";
+import { For } from "react-for-loop";
 
 export default () => {
   const [data, setData] = useState([]);
