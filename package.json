@@ -1,10 +1,14 @@
 {
     "name": "react-for-loop",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Syntactic sugar for using loops in React with optional no-data message",
     "author": "sumedh22",
     "license": "MIT",
-    "keywords": ["React", "loop", "react loop"],
+    "keywords": [
+        "React",
+        "loop",
+        "react loop"
+    ],
     "repository": "sumedh22/react-for-loop",
     "main": "dist/index.js",
     "module": "dist/index.es.js",
